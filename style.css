@@ -1,0 +1,28 @@
+a {color: #04168c;}
+a:hover {color: #e909d2;}
+a:active {background-color: orange; color: orange;}
+
+ b{
+    background-color: aqua;
+    color: blueviolet;
+    margin: 12px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;}
+
+ h1{
+      color: blue;
+      font-size: 26px; 
+      font-style: normal;}
+ h2{
+     color: blue;
+     font-size: 24px; 
+     font-style: normal;}
+ h3{
+     color: blue;
+     font-size: 22px; 
+     font-style: normal;}
+
+ p {
+    font-size: 12px;
+    font: normal;
+    color:#cfd609;}
