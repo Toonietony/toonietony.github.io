@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <link rel="stylesheet" type="text/css" href="style.css" />
+  <script src="main.js" defer></script>
   <title>Professional Background</title>
 </head>
 
@@ -52,6 +53,30 @@
     <li>Excellent customer service skills</li>
     <li>Excellent communication skills</li>
   </ul>
+
+  <!-- button to prompt user for name -->
+  <button onclick="promptUser()">Click to Enter Your Name</button>
+
+  <!-- clickable image -->
+  <img id="myImage" src= "" alt="my image" onclick="enlargeImage()">
+
+  <!-- navigation menu -->
+  <nav>
+      <ul>
+          <li onmouseover="mouseoverEvent(this)" onmouseout="mouseoutEvent(this)">
+              <a href="page1.html">Page 1</a>
+          </li>
+          <li onmouseover="mouseoverEvent(this)" onmouseout="mouseoutEvent(this)">
+              <a href="page2.html">Page 2</a>
+          </li>
+          <li onmouseover="mouseoverEvent(this)" onmouseout="mouseoutEvent(this)">
+              <a href="#">Menu Item 1</a>
+          </li>
+          <li onmouseover="mouseoverEvent(this)" onmouseout="mouseoutEvent(this)">
+              <a href="#">Menu Item 2</a>
+          </li>
+      </ul>
+  </nav>
 
 </body>
 </html>
