@@ -16,6 +16,6 @@ function enlargeImage() {
 function mouseoverEvent(element) {
     element.style.backgroundColor = "#1069c2"; // change background colour of mouseover
 }
-function mouseoutEvent(element) {=
+function mouseoutEvent(element) {
     element.style.backgroundColor = ""; // removing background of mousecourser 
 }
